@@ -54,6 +54,7 @@ public class OnelistAddDefine {
 //		util.delay(1);
 //	}
 	
+	// tag4
 	@When("User menekan tombol Tambah Isi List")
 	public void clickAddIsi() {
 		main.btnAddIsi.click();

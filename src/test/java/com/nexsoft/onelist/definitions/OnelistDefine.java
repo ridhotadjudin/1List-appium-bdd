@@ -103,19 +103,19 @@ public class OnelistDefine {
 				By.xpath("//android.widget.TextView[@resource-id='com.lolo.io.onelist:id/textView']"));
 		
 		String expectedChar = inString;
-		boolean checkData = false;
+		boolean check = false;
 		for (WebElement webElement : lstElement) {
 			if (webElement.getText().contains(expectedChar)) {
-				checkData = true;
+				check = true;
 				break;
 			}
 		}
-		assertTrue(checkData);
+		assertTrue(check);
 		util.screenshotAll();
 		util.delay(1);
 	}
 	
-	// tambahan untuk tag2
+	// tag3
 	@And("User memasukkan nama list2 {string}")
 	public void insertListName2(String namaList)  throws Throwable {
 		main.boxInputListTitle.sendKeys(namaList);
@@ -144,7 +144,7 @@ public class OnelistDefine {
 		util.delay(1);
 	}
 	
-	// tag3
+	// tag4
 	@And("User memasukkan nama list {string}")
 	public void insertListNameKosong(String namaList) throws Throwable {
 		main.boxInputListTitle.sendKeys(namaList);
@@ -173,7 +173,5 @@ public class OnelistDefine {
 		util.screenshotAll();
 		util.delay(1);
 	}
-	
-	
 	
 }
