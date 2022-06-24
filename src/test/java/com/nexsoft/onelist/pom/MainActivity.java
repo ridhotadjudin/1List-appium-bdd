@@ -32,6 +32,15 @@ public class MainActivity {
 	@AndroidFindBy(id = "com.lolo.io.onelist:id/cancelEditList")
 	public WebElement btnCancelEditList;
 	
+	@AndroidFindBy(id = "com.lolo.io.onelist:id/addItemEditText")
+	public WebElement btnAddIsi;
+	
+	@AndroidFindBy(id = "com.lolo.io.onelist:id/validate")
+	public WebElement btnSaveIsi;
+	
+	
+
+	
 	
 	
 	
