@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SuiteTest">
+	<test name="1List Suite">
+		<classes>
+			<class name="com.nexsoft.onelist.runner.OnelistRunner"></class>
+		</classes>
+	</test>
+</suite> 
