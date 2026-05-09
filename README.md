@@ -291,4 +291,12 @@ The framework uses **ExtentReports 4.0.9** to generate comprehensive HTML report
 
 ⭐ Star this repository if you find it useful!
 
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
 </div>
